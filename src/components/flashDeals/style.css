@@ -6,6 +6,13 @@
 .img .image-items{
   width: 200px;
   height: 270px;
-
 }
 
+@media screen and (max-width: 390px) {
+  .img .image-items{
+    width: 200px;
+    height: 270px;
+    margin-left: 2rem;
+  }
+  
+}

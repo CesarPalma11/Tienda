@@ -125,3 +125,24 @@ input:focus {
     right: -5px;
   }
 }
+
+@media screen and (max-width: 390px) {
+  
+  .search .logo {
+    width: 100%;
+    text-align: center;
+    margin-bottom: 10px;
+  }
+  .search-box {
+    width: 100%;
+    margin-bottom: 10px;
+  }
+  .icon {
+    width: 100%;
+    justify-content: center;
+  }
+  .cart span {
+    top: -5px;
+    right: -5px;
+  }
+}

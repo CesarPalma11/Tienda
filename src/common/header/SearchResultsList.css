@@ -28,3 +28,10 @@
   .results-list::-webkit-scrollbar {
     display: none; /* Chrome, Safari, Opera */
   }
+
+@media screen and (max-width: 390px) {
+  .results-list {
+    width: 80%;
+  }
+  
+}

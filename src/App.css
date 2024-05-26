@@ -62,8 +62,7 @@ button {
   width: 50px;
   height: 50px;
   line-height: 50px;
-  
-  margin-right: 20px;
+  margin-right: 0px;
   text-align: center;
   border-radius: 50%;
 }
@@ -309,5 +308,24 @@ button {
 
   .product-details .price h4 {
     font-size: 1em;
+  }
+}
+
+@media screen and (max-width: 390px) {
+  .position-icon {
+    width: 50px;
+    height: 50px;
+    line-height: 50px;
+    margin-right: 0px;
+    text-align: center;
+    border-radius: 50%;
+  }
+  .icon-circle {
+    width: 50px;
+    height: 50px;
+    line-height: 50px;
+    margin-left: 0px;
+    text-align: center;
+    border-radius: 50%;
   }
 }

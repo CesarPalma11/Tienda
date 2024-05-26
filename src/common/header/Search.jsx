@@ -68,6 +68,7 @@ const Search = ({ CartItem }) => {
   }, []);
 
   return (
+    <>
     <section className='search' ref={searchRef}>
     <div className='container c_flex'>
       <div className='logo width'>
@@ -100,7 +101,7 @@ const Search = ({ CartItem }) => {
     {showResults && <SearchResultsList results={results} onResultClick={handleResultClick} />}
     {showLogin && <Login onClose={() => setShowLogin(false)} />} {/* Muestra el modal de login */}
   </section>
-
+  </>
   );
 };
 
