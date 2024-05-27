@@ -327,5 +327,6 @@ button {
     margin-left: 0px;
     text-align: center;
     border-radius: 50%;
+    background-color: transparent;
   }
 }

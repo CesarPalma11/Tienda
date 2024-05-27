@@ -127,22 +127,38 @@ input:focus {
 }
 
 @media screen and (max-width: 390px) {
+  .input-wrapper {
+    background-color: white;
+    width:100%;
+    border-radius: 20px;
+    height: 2.5rem;
+    padding: 0 15px;
+    flex: 1;
   
+  }
+  .container-search {
+    display: flex;
+  }
   .search .logo {
     width: 100%;
-    text-align: center;
+    text-align: start;
+    margin-left: 5px;
     margin-bottom: 10px;
   }
   .search-box {
-    width: 100%;
+    width:300%;
     margin-bottom: 10px;
   }
   .icon {
     width: 100%;
-    justify-content: center;
+    background-color: transparent;
   }
   .cart span {
     top: -5px;
     right: -5px;
+  }
+  .search .width {
+    width: 100%;
+    
   }
 }
