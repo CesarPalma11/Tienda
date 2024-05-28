@@ -8,7 +8,7 @@ const Discount = () => {
         <div className='container'>
           <div className='heading d_flex'>
             <div className='heading-left row  f_flex'>
-              <img src='https://img.icons8.com/windows/32/fa314a/gift.png' />
+              <i class="fa-solid fa-gift"></i>
               <h2>Grandes descuentos</h2>
             </div>
             <div className='heading-right row '>

@@ -84,7 +84,7 @@ const Search = ({ CartItem }) => {
             onKeyDown={handleKeyDown}
           />
         </div>
-        <button class="btn" type="submit"><i className='fa fa-search'></i></button>
+        <button class="btn-search" type="submit"><i className='fa fa-search'></i></button>
        
       </div>
       
@@ -92,7 +92,7 @@ const Search = ({ CartItem }) => {
       <i className='fa fa-user position-icon' style={{cursor:'pointer'}} onClick={() => setShowLogin(true)}></i>
         <div className='cart'>
           <Link to='/cart'>
-            <i className='fa fa-shopping-cart icon-circle'></i>
+            <i className='fa fa-shopping-cart icon-circle carrito'></i>
             <span>{CartItem.length === 0 ? "0" : CartItem.length}</span>
           </Link>
         </div>

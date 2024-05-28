@@ -17,10 +17,10 @@ const Login = ({ onClose }) => {
     <div className="login-modal">
       <div className="login-content">
         <span className="close" onClick={onClose}>&times;</span>
-        <h2>Login</h2>
+        <h2>Iniciar sesion</h2>
         <form onSubmit={handleLogin}>
           <div className="input-group">
-            <label htmlFor="username">Username</label>
+            <label htmlFor="username">Nombre</label>
             <input
               type="text"
               id="username"
@@ -30,7 +30,7 @@ const Login = ({ onClose }) => {
             />
           </div>
           <div className="input-group">
-            <label htmlFor="password">Password</label>
+            <label htmlFor="password">Contraseña</label>
             <input
               type="password"
               id="password"
@@ -39,7 +39,7 @@ const Login = ({ onClose }) => {
               required
             />
           </div>
-          <button type="submit" className='btn-login'>Login</button>
+          <button type="submit" className='btn-login'>Iniciar</button>
         </form>
       </div>
     </div>

@@ -80,6 +80,16 @@
   flex: 1;
 
 }
+.btn-search {
+  background-color: transparent;
+  padding: 5px 2px;
+  border-left: 1px solid #e2e8ec;
+}
+.container-search {
+  max-width: 90%;
+
+ justify-content: space-evenly;
+}
 /*------search-----------*/
 
 
@@ -138,6 +148,7 @@ input:focus {
   }
   .container-search {
     display: flex;
+    max-width: 100%;
   }
   .search .logo {
     width: 100%;
@@ -160,5 +171,8 @@ input:focus {
   .search .width {
     width: 100%;
     
+  }
+  .carrito {
+    margin-left: -1rem;
   }
 }

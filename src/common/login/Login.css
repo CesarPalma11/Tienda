@@ -14,9 +14,8 @@
   
   .login-content {
     background-color: white;
-    padding: 20px;
-    border: 1px solid #888;
-    width: 300px;
+    padding: 30px;
+    width: 350px;
     border-radius: 8px;
     text-align: center;
   }
@@ -38,16 +37,19 @@
   .input-group {
     margin-bottom: 15px;
     text-align: left;
+    
   }
   
   .input-group label {
     display: block;
     margin-bottom: 5px;
+    
   }
   
   .input-group input {
+    border: 1px solid #c7c1c1;
     width: 100%;
-    padding: 8px;
+    padding: 6px;
     box-sizing: border-box;
   }
   
