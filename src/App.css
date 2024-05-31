@@ -9,7 +9,14 @@ html {
 }
 body {
   font-family: "Poppins", sans-serif;
-  background-color: white !important; 
+  background-color: #ffffff !important; 
+}
+
+@media (prefers-color-scheme: dark) {
+  body {
+    background-color: #000000; /* color de fondo oscuro */
+    color: #ffffff; /* color de texto claro */
+  }
 }
 .background {
   background: #f6f9fc;
