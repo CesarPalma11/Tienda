@@ -1,18 +1,15 @@
-
 .flash {
-  background: #f6f9fc;
+  background: #f6f9fc !important;
   padding: 50px 0;
 }
 .img .image-items{
   width: 200px;
   height: 270px;
 }
-
 @media screen and (max-width: 390px) {
   .img .image-items{
     width: 200px;
     height: 270px;
     margin-left: 2rem;
   }
-  
 }
